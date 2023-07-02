@@ -1,0 +1,6 @@
+a=int(input())
+b=''.join(input().split())
+t=input()
+n1=b.find(t)
+n2=b.rfind(t)
+print(n1,n2)
